@@ -1,3 +1,3 @@
-# Base-Template
+# Minecraft-Forge-Mod-Template
 
-A base template repository used to create more specific template repositories
+A template repository for Minecraft Forge mod projects
