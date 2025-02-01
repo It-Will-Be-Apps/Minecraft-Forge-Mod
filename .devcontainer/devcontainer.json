@@ -1,0 +1,27 @@
+{
+    "name": "base-template",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "mounts": [
+        {
+            "source": "${localEnv:USERPROFILE}/.ssh",
+            "target": "/root/.ssh",
+            "type": "bind"
+        }
+    ],
+    "forwardPorts": [],
+    "postCreateCommand": "./scripts/init.sh",
+    "postStartCommand": "./scripts/update.sh",
+    "postAttachCommand": "./scripts/status.sh",
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": []
+        }
+    },
+    "runArgs": [
+        "--name", "base-template",
+        "--env-file", ".devcontainer/.env"
+    ]
+}
