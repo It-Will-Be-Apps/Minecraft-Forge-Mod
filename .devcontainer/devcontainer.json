@@ -1,5 +1,5 @@
 {
-    "name": "base-template",
+    "name": "minecraft-forge-mod-template",
     "build": {
         "dockerfile": "Dockerfile"
     },
@@ -21,7 +21,7 @@
         }
     },
     "runArgs": [
-        "--name", "base-template",
+        "--name", "minecraft-forge-mod-template",
         "--env-file", ".devcontainer/.env"
     ]
 }
