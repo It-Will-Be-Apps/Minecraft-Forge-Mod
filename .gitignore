@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+
+# Ignore Gradle wrapper files
+gradle/wrapper/gradle-wrapper.jar
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore Eclipse project files
+.project
+.classpath
+.settings/
+
+# Ignore VS Code project files
+.vscode/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Minecraft specific files
+run/
+out/
+logs/
+crash-reports/
+mods/
+config/
+saves/
