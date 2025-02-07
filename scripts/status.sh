@@ -6,6 +6,8 @@ echo 'Summary of the tools required for the repository:'
 # Show the installed version of Git
 git --version
 
+# Show the installed version of Java
+java -version
 
 
 
